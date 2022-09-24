@@ -23,3 +23,9 @@ $ docker ps
 CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS                               NAMES
 d6ade8820b02   0c404972e130   "/docker-entrypoint.…"   6 seconds ago   Up 5 seconds   0.0.0.0:8000->80/tcp                tutorial
 ```
+
+
+To stop the container, run terraform destroy.
+```
+$ terraform destroy
+```
